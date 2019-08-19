@@ -1,0 +1,156 @@
+* {                                     
+    box-sizing: border-box;
+  }
+  body{                                         /*Determines the backgroung colour of the webPage*/
+    background-color: black;
+  }
+  .cover{                                       /*Determining the characteristics of the class = cover*/
+    background-image: url("./cover.jpg");       /*Linking a background image*/
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    width: 100%;
+    height: 470px;
+    position: relative;
+  }
+  .opening h1{                     /*Determining the chracteristics of the h1 of the opening class*/
+    margin: 0px;
+    font-weight: 50;
+    font-family: times roman;
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  .intro{                                       /*Determining the characteristics of the class = intro*/
+    margin-top: 50px;
+    background-image: url("./intro.jpg");       /*Linking a relatable image*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+  .intro h3{                                    /*Setting the design of h3 in class intro*/
+    float: right;
+    width: 30%;
+    border: 5px solid white;                  /*Giving it a 5 pixels thick white border*/
+    border-radius: 10px;                        /*Curving the border from the sides*/
+    font-size: 40pt;
+    color: white;
+    font-weight: 50%;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: 50px;
+    margin-right: 70px;
+    position: relative;
+  }
+  .intro2 h3{
+    font-family: times roman;
+    font-size: 32pt;
+    width: 50%;
+    float: center;
+    margin-right: 20px;
+    margin-left: 80px;
+    color: white;
+    position: relative;
+  }
+  .intro2 p{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: times roman;
+    font-size: 16pt;
+    font-weight: 20;
+    width: 55%;
+    position: relative;
+    color: white;
+  }
+  .spa-image{                                           /*Setting the design of the image*/
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-right: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+  }
+  .intro3 h3{
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+    font-family: times roman;
+    margin-top: 100px;
+  }
+  .intro3 p{
+    text-align: center;
+    color: white;
+    font-family: times roman;
+    font-weight: 20;
+    font-size: 16pt;
+    width: 90%;
+    margin: 20px 40px;
+    position: relative;
+  }
+  .why h3{                                  /*Determining the characteristics of h3 in class = why*/
+    font-family: times roman;
+    text-align: center;
+    letter-spacing: 1pt;
+    font-size: 32pt;
+    width: 50%;
+    float: center;
+    margin-right: 20px;
+    margin-left: 80px;
+    margin-top: 80px;
+    color: white;
+    position: relative;
+  }
+  .why p{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-family: times roman;
+    font-size: 16pt;
+    font-weight: 20;
+    width: 55%;
+    position: relative;
+    color: white;
+    
+  }
+  .why-image{
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    margin-right: 80px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+  }
+  .about {                                                 /*Characteristics of class about*/
+    background-color: black;
+    padding: 1px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .about a {                                 /*characteristics of the links to the internal links*/
+    background: black;
+    font-size: 15pt;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+    margin: 5px;
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: 100%;
+  }
+  .about a:hover {                         /*Changing the characteristics of the links to the internal 
+                                             links when the mouse hover over them*/
+    background: white;
+    border: 1px solid white;
+    color: black;
+  }
